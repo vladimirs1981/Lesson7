@@ -10,8 +10,13 @@ public class ExtraRandom extends Random {
 		return randomChar;
 	}
 
+	@Override
 	public String toString() {
-		return "June was here";
+		return "Jason is lame.";
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new ExtraRandom());
 	}
 
 }
